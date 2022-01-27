@@ -1,4 +1,5 @@
 import {
+   Background,
    Name,
    SubText,
    Text,
@@ -9,7 +10,6 @@ import {
    Root,
 } from "./Header.css";
 
-import portrait from "assets/img/cs.png";
 import portraitWebp from "assets/img/cs.webp";
 
 export default function Header() {
@@ -23,6 +23,7 @@ export default function Header() {
          </TextWrapper>
          <PhotoWrapper>
             <Portrait src={portraitWebp} />
+            <Background />
          </PhotoWrapper>
       </Root>
    );

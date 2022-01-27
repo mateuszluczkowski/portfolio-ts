@@ -1,4 +1,4 @@
-export interface GridProps {
+export interface OnlyChilrenProps {
    children: React.ReactNode;
 }
 

@@ -6,8 +6,13 @@ declare module "styled-components" {
          white: string;
          black: string;
          darkGray: string;
-         orange: string;
+         darkBlue: string;
+         sapphireBlue: string;
+         celadonBlue: string;
+         carolinaBlue: string;
+         azure: string;
       };
+      media: {};
       media: {
          mobile: string;
          tablet: string;

@@ -1,15 +1,20 @@
 import "normalize.css";
 import { ThemeProvider } from "styled-components";
 
-import { Grid, Header } from "components";
+import { AboutMeSection, Grid, Header, ThemeSwitcher } from "components";
 import GlobalStyles from "utils/GlobalStyles";
-import theme from "utils/theme";
+import setTheme from "utils/theme";
+import { useTheme } from "contexts/ThemeContext";
+
 function App() {
+   const isDarkTheme = useTheme();
    return (
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={setTheme(isDarkTheme)}>
          <GlobalStyles />
          <Grid>
+            <ThemeSwitcher />
             <Header />
+            <AboutMeSection />
          </Grid>
       </ThemeProvider>
    );

@@ -1,7 +1,7 @@
 import { Root } from "./Grid.css";
 
-import { GridProps } from "interfaces";
+import { OnlyChilrenProps } from "interfaces";
 
-export default function Grid({ children }: GridProps) {
+export default function Grid({ children }: OnlyChilrenProps) {
    return <Root children={children} />;
 }
