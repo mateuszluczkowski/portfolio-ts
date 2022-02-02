@@ -18,3 +18,7 @@ export interface ProjectProps {
 export interface ProjectPropsStyled {
    gridArea: string;
 }
+
+export interface ProjectSliderNavProps {
+   isLeft: number;
+}

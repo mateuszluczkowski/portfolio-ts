@@ -12,6 +12,7 @@ export const projects = [
       github: "https://github.com/",
       link: "https://openlink.com/",
       gridArea: "mainProject",
+      isComercial: true,
    },
    {
       id: 1,
@@ -21,6 +22,7 @@ export const projects = [
       github: "https://github.com/mateuszluczkowski/herbaciarnia-react",
       link: "https://herbaciarniaziolowareact.herokuapp.com/",
       gridArea: "project1",
+      isComercial: true,
    },
    {
       id: 2,
@@ -32,6 +34,7 @@ export const projects = [
          "https://github.com/mateuszluczkowski/react-mentor-interactive-pricing-slider",
       link: "https://mateuszluczkowski.github.io/react-mentor-interactive-pricing-slider/",
       gridArea: "project2",
+      isComercial: false,
    },
    {
       id: 3,
@@ -42,6 +45,7 @@ export const projects = [
       github: "https://github.com/mateuszluczkowski/react-mentor-redux-todo",
       link: "https://mateuszluczkowski.github.io/react-mentor-redux-todo/",
       gridArea: "project3",
+      isComercial: false,
    },
    {
       id: 4,
@@ -52,5 +56,6 @@ export const projects = [
       github: "https://github.com/mateuszluczkowski/js-game-minesweeper",
       link: "https://mateuszluczkowski.github.io/js-game-minesweeper/",
       gridArea: "project4",
+      isComercial: false,
    },
 ];

@@ -5,6 +5,7 @@ export const Root = styled.section`
    align-items: center;
    flex-direction: column;
    min-height: 100vh;
+   padding: ${({ theme: { spacing } }) => `${spacing.xlg} ${spacing.xxxlg}`};
 `;
 
 export const Title = styled.h2`
