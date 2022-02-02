@@ -20,6 +20,9 @@ h2 {
 h3 {
    font-size: 3rem;
 }
+h4 {
+   font-size: 2.2rem;
+}
 p {
    font-size:  1.8rem;
 }

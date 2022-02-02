@@ -30,7 +30,6 @@ export default function Header() {
          const nextIndex = prevIndex + 1;
          return nextIndex >= professtionText.length ? 0 : nextIndex;
       });
-   console.log(currentIndex);
    useEffect(() => {
       const switchInterval = setInterval(() => switchProfessionText(), 10000);
       return () => clearInterval(switchInterval);

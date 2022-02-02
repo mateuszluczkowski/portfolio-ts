@@ -53,8 +53,10 @@ export const Title = styled.h2`
 `;
 export const Subtitle = styled.p`
    width: 100%;
+   line-height: 2.5rem;
 `;
 export const Text = styled.p`
    font-weight: 300;
    width: 100%;
+   line-height: 2.5rem;
 `;

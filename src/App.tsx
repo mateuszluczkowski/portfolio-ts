@@ -1,7 +1,13 @@
 import "normalize.css";
 import { ThemeProvider } from "styled-components";
 
-import { AboutMeSection, Grid, Header, ThemeSwitcher } from "components";
+import {
+   AboutMeSection,
+   Grid,
+   Header,
+   PortfolioSection,
+   ThemeSwitcher,
+} from "components";
 import GlobalStyles from "utils/GlobalStyles";
 import setTheme from "utils/theme";
 import { useTheme } from "contexts/ThemeContext";
@@ -15,6 +21,7 @@ function App() {
             <ThemeSwitcher />
             <Header />
             <AboutMeSection />
+            <PortfolioSection />
          </Grid>
       </ThemeProvider>
    );
