@@ -27,13 +27,13 @@ export default function PortfolioProject({
          <TextWrapper>
             <Subtitle children="Description" />
             <Description children={description} />
-            <Link href={link} />
+            <Link href={link} children="open project" />
             <GitHub
                href={github}
                children={
                   <>
                      <FontAwesomeIcon icon={faGithub} />
-                     {"github"}
+                     {" github"}
                   </>
                }
             />

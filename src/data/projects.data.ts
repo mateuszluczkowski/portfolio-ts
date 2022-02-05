@@ -7,17 +7,19 @@ export const projects = [
    {
       id: 0,
       name: "Sztuka Otwartości",
-      description: "lorem ipsum hehe",
+      description:
+         "Todo List with status filter and with the possibility of drag and drop task. Two themes dark and light, to switch them just click on the sun/moon icon.",
       img: sztukaImg,
       github: "https://github.com/",
-      link: "https://openlink.com/",
+      link: "https://sztukaotwartosci.pl/",
       gridArea: "mainProject",
       isComercial: true,
    },
    {
       id: 1,
       name: "Herbaciarnia ziołowa",
-      description: "lorem ipsum hehe",
+      description:
+         "Todo List with status filter and with the possibility of drag and drop task. Two themes dark and light, to switch them just click on the sun/moon icon.",
       img: herbaciarniaImg,
       github: "https://github.com/mateuszluczkowski/herbaciarnia-react",
       link: "https://herbaciarniaziolowareact.herokuapp.com/",
