@@ -22,6 +22,8 @@ const professtionText = [
    "TypeScript",
 ];
 
+const intervalTime = 2500;
+
 export default function Header() {
    const [currentIndex, setCurrentIndex] = useState<number>(0);
    const text: string = professtionText[currentIndex];
@@ -31,7 +33,10 @@ export default function Header() {
          return nextIndex >= professtionText.length ? 0 : nextIndex;
       });
    useEffect(() => {
-      const switchInterval = setInterval(() => switchProfessionText(), 10000);
+      const switchInterval = setInterval(
+         () => switchProfessionText(),
+         intervalTime
+      );
       return () => clearInterval(switchInterval);
    });
    return (

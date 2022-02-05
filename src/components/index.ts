@@ -5,3 +5,4 @@ export { default as ThemeSwitcher } from "./ThemeSwitcher";
 export { default as PortfolioSection } from "./PortfolioSection";
 export { default as PortfolioProject } from "./PortfolioProject";
 export { default as ProjectSlider } from "./ProjectSlider";
+export { default as ProjectSliderNav } from "./ProjectSliderNav";

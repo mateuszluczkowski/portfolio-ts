@@ -22,8 +22,10 @@ export const Subtitle = styled.h4``;
 export const ProjectImg = styled.img`
    grid-area: img;
    max-height: 50vh;
+   max-width: 100%;
 `;
 export const TextWrapper = styled.div`
+   padding: ${({ theme: { spacing } }) => spacing.xlg};
    grid-area: text;
    display: flex;
    flex-direction: column;

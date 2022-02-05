@@ -19,6 +19,11 @@ export interface ProjectPropsStyled {
    gridArea: string;
 }
 
-export interface ProjectSliderNavProps {
+export interface ProjectSliderButton {
    isLeft: number;
+}
+
+export interface ProjectSliderNavProps {
+   activeIndex: number;
+   setActiveIndex: React.Dispatch<React.SetStateAction<number>>;
 }
