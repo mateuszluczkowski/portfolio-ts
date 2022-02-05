@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ProjectSliderNav } from "components";
-import { Content, Root } from "./ProjectSlider.css";
+import { Root } from "./ProjectSlider.css";
 import { projects } from "data";
 import { PortfolioProject } from "components";
 export default function ProjectSlider() {
@@ -15,17 +15,16 @@ export default function ProjectSlider() {
             activeIndex={activeIndex}
             setActiveIndex={setActiveIndex}
          />
-         <Content>
-            <PortfolioProject
-               background={img}
-               description={description}
-               github={github}
-               gridArea={gridArea}
-               key={id}
-               link={link}
-               name={name}
-            />
-         </Content>
+
+         <PortfolioProject
+            background={img}
+            description={description}
+            github={github}
+            gridArea={gridArea}
+            key={id}
+            link={link}
+            name={name}
+         />
       </Root>
    );
 }

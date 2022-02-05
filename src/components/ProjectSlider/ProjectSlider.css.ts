@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const Root = styled.div`
    position: relative;
-   width: 100%;
-   height: 90vh;
+   width: 85%;
+   height: 70vh;
    overflow: hidden;
-   padding: ${({ theme: { spacing } }) => spacing.xxlg} 0;
+   padding: ${({ theme: { spacing } }) => `${spacing.xlg} ${spacing.xlg}`};
    background-color: ${({ theme: { colors } }) => colors.sapphireBlue};
    border-radius: 5rem 5rem;
 `;
-
-export const Content = styled.div``;

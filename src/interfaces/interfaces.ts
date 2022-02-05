@@ -27,3 +27,7 @@ export interface ProjectSliderNavProps {
    activeIndex: number;
    setActiveIndex: React.Dispatch<React.SetStateAction<number>>;
 }
+
+export interface ProjectImgProps {
+   background: string;
+}
